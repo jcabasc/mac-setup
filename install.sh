@@ -43,7 +43,7 @@ do
 done
 
 __echo "Installing pip"
-python get-pip.py
+curl https://bootstrap.pypa.io/get-pip.py | python
 
 __echo "Installing tmuxp"
 pip install tmuxp
